@@ -1,0 +1,25 @@
+{
+    "$id": "https://ticq.dev/tenant.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Tenant",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Name of the tenant"
+      },
+      "displayName": {
+        "type": "string",
+        "description": "A small description of the tenant"
+      },
+      "assignEgressIp": {
+        "type": "string",
+        "format": "ipv4"
+      },
+      "crossNamespaceNetwork": {
+        "type": "string",
+        "enum": ["true", "false"]
+      }
+    },
+    "required": [ "name", "displayName" ]
+  }
