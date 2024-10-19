@@ -10,6 +10,8 @@
 # override to create a maintenance message
 maintenanceMessage: ""
 
+tenantGitopsInstances: 1
+
 operators:
 - name: namespace-configuration-operator
 - name: descheduler

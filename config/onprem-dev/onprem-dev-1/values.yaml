@@ -6,3 +6,5 @@ tenants:
     tenantProvisionedRepository: "https://github.com/GijsvanDulmen/openshift-gitops-tenants-setup"
     tenantProvisionedBranch: "main"
   team-frontend: {}
+
+tenantGitopsInstances: 2
