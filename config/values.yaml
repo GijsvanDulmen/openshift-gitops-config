@@ -22,6 +22,7 @@ operators:
 - name: gitops-operator
 - name: compliance-operator
 - name: local-storage-operator
+- name: kargo-operator
 
 clusterComponents:
 - name: user-sandbox
