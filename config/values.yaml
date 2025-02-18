@@ -12,6 +12,9 @@ maintenanceMessage: ""
 
 tenantGitopsInstances: 1
 
+# For disconnected clusters
+enableDisconnected: "false"
+
 operators:
 - name: namespace-configuration-operator
 - name: descheduler

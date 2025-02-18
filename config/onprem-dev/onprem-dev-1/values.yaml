@@ -8,3 +8,5 @@ tenants:
   team-frontend: {}
 
 tenantGitopsInstances: 2
+
+enableDisconnected: "true"
