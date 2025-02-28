@@ -34,6 +34,8 @@ operators:
   disconnectedSource: "cs-redhat-operator-index"
 - name: local-storage-operator
   disconnectedSource: "cs-redhat-operator-index"
+- name: lvms-operator
+  disconnectedSource: "cs-redhat-operator-index"
 - name: kargo
   namespace: kargo
 
