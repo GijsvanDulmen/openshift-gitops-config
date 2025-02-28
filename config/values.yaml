@@ -28,8 +28,8 @@ operators:
   disconnectedSource: "cs-redhat-operator-index"
 - name: istio-operator
   disconnectedSource: "cs-redhat-operator-index"
-- name: gitops-operator
-  disconnectedSource: "cs-redhat-operator-index"
+# - name: gitops-operator
+#   disconnectedSource: "cs-redhat-operator-index"
 - name: compliance-operator
   disconnectedSource: "cs-redhat-operator-index"
 - name: local-storage-operator
