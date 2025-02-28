@@ -42,6 +42,7 @@ operators:
 clusterComponents:
 - name: user-sandbox
 - name: keepalived-config
+- name: storage-config
 - name: openshift-console-plugin
 - name: external-dns
   namespace: "external-dns"
