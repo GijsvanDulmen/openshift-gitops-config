@@ -4,7 +4,7 @@
 # targetRevision: ""
 # gitopsNamespace: ""
 # gitRepo: ""
-# disableAutoSync: "no"
+disableAutoSync: "yes"
 # overrideTenants: "no"
 
 # override to create a maintenance message
