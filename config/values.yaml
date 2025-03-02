@@ -17,7 +17,7 @@ enableDisconnected: "false"
 
 operators:
 - name: namespace-configuration-operator
-  disconnectedSource: "cs-community-operator-index"
+  disconnectedSource: "cs-community-operator-index-v4-17"
 - name: descheduler
   disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: vertical-pod-autoscaler
