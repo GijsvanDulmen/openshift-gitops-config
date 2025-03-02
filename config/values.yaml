@@ -50,5 +50,6 @@ clusterComponents:
 - name: istio-config
 
 # enable this for gitops cluster updates!
+# not v4.17 and disconnected ready
 # - name: cluster-version
 #   disableFinalizers: "yes" # needs this otherwise clusterversion would be deleted
