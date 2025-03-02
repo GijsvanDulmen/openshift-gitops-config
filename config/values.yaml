@@ -19,23 +19,23 @@ operators:
 - name: namespace-configuration-operator
   disconnectedSource: "cs-community-operator-index"
 - name: descheduler
-  disconnectedSource: "cs-redhat-operator-index"
+  disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: vertical-pod-autoscaler
-  disconnectedSource: "cs-redhat-operator-index"
+  disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: keepalived-operator
-  disconnectedSource: "cs-community-operator-index"
+  disconnectedSource: "cs-community-operator-index-v4-17"
 - name: certmanager-operator
-  disconnectedSource: "cs-redhat-operator-index"
+  disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: istio-operator
-  disconnectedSource: "cs-redhat-operator-index"
+  disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: gitops-operator
-  disconnectedSource: "cs-redhat-operator-index"
+  disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: compliance-operator
-  disconnectedSource: "cs-redhat-operator-index"
+  disconnectedSource: "cs-redhat-operator-index-v4-17"
 # - name: local-storage-operator
-#   disconnectedSource: "cs-redhat-operator-index"
+#   disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: lvms-operator
-  disconnectedSource: "cs-redhat-operator-index"
+  disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: kargo
   namespace: kargo
 
