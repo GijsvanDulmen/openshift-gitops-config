@@ -39,10 +39,12 @@ operators:
 - name: kargo
   namespace: kargo
 - name: kyverno
+  namespace: kyverno
   
 clusterComponents:
 - name: user-sandbox
 - name: keepalived-config
+# - name: kyverno-config
 - name: storage-config
 - name: openshift-console-plugin
 - name: external-dns
