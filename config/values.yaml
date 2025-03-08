@@ -38,7 +38,8 @@ operators:
   disconnectedSource: "cs-redhat-operator-index-v4-17"
 - name: kargo
   namespace: kargo
-
+- name: kyverno-operator
+  
 clusterComponents:
 - name: user-sandbox
 - name: keepalived-config
