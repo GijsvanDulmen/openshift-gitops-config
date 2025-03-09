@@ -44,7 +44,7 @@ operators:
 clusterComponents:
 - name: user-sandbox
 - name: keepalived-config
-# - name: kyverno-config
+- name: kyverno-config
 - name: storage-config
 - name: openshift-console-plugin
 - name: external-dns
