@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../../../../config-schema/tenant.schema.json
+name: team-backend
+displayName: Super Team API backends
+
+users:
+- name: GijsvanDulmen
