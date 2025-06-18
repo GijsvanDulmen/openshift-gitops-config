@@ -17,25 +17,25 @@ enableDisconnected: "false"
 
 operators:
 - name: namespace-configuration-operator
-  disconnectedSource: "cs-community-operator-index-v4-18"
+  # disconnectedSource: "cs-community-operator-index-v4-18"
 - name: descheduler
-  disconnectedSource: "cs-redhat-operator-index-v4-18"
+  # disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: vertical-pod-autoscaler
-  disconnectedSource: "cs-redhat-operator-index-v4-18"
+  # disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: keepalived-operator
-  disconnectedSource: "cs-community-operator-index-v4-18"
+  # disconnectedSource: "cs-community-operator-index-v4-18"
 - name: certmanager-operator
-  disconnectedSource: "cs-redhat-operator-index-v4-18"
+  # disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: istio-operator
-  disconnectedSource: "cs-redhat-operator-index-v4-18"
+  # disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: gitops-operator
-  disconnectedSource: "cs-redhat-operator-index-v4-18"
+  # disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: compliance-operator
-  disconnectedSource: "cs-redhat-operator-index-v4-18"
+  # disconnectedSource: "cs-redhat-operator-index-v4-18"
 # - name: local-storage-operator
 #   disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: lvms-operator
-  disconnectedSource: "cs-redhat-operator-index-v4-18"
+  # disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: kargo
   namespace: kargo
 - name: kyverno
