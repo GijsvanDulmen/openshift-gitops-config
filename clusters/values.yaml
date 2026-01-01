@@ -22,11 +22,11 @@ operators:
   # disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: vertical-pod-autoscaler
   # disconnectedSource: "cs-redhat-operator-index-v4-18"
-- name: keepalived-operator
+# - name: keepalived-operator
   # disconnectedSource: "cs-community-operator-index-v4-18"
 - name: certmanager-operator
   # disconnectedSource: "cs-redhat-operator-index-v4-18"
-- name: istio-operator
+# - name: istio-operator
   # disconnectedSource: "cs-redhat-operator-index-v4-18"
 - name: gitops-operator
   # disconnectedSource: "cs-redhat-operator-index-v4-18"
@@ -34,23 +34,23 @@ operators:
   # disconnectedSource: "cs-redhat-operator-index-v4-18"
 # - name: local-storage-operator
 #   disconnectedSource: "cs-redhat-operator-index-v4-18"
-- name: lvms-operator
+# - name: lvms-operator
   # disconnectedSource: "cs-redhat-operator-index-v4-18"
-- name: kargo
-  namespace: kargo
+# - name: kargo
+#   namespace: kargo
 - name: kyverno
   namespace: kyverno
   
 clusterComponents:
 - name: user-sandbox
-- name: keepalived-config
+# - name: keepalived-config
 - name: kyverno-config
-- name: storage-config
+# - name: storage-config
 - name: openshift-console-plugin
 - name: external-dns
   namespace: "external-dns"
 - name: certmanager-config
-- name: istio-config
+# - name: istio-config
 
 # enable this for gitops cluster updates!
 # not v4.18 and disconnected ready
