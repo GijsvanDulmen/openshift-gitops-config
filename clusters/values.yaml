@@ -38,8 +38,8 @@ operators:
 #   disconnectedSource: "cs-redhat-operator-index-v4-18"
 # - name: lvms-operator
   # disconnectedSource: "cs-redhat-operator-index-v4-18"
-# - name: kargo
-#   namespace: kargo
+- name: kargo
+  namespace: kargo
 - name: kyverno
   namespace: kyverno
   
