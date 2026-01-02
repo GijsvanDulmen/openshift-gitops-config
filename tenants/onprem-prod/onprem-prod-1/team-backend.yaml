@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../../../config-schema/tenant.schema.json
+quotaType: "namespace"
+
+assignEgressIp: "192.168.1.222"
+
+# Allow test to access accept
+crossNamespaceNetwork: "true"
+
+namespaces:
+- name: prod
+  containerLimits:
+    max:
+      cpu: "3"
+  
+  resourceQuota:
+    limits.cpu: "12"
+    requests.cpu: "10"
+
+  gitops:
+    repository: https://github.com/GijsvanDulmen/openshift-gitops-tenants-setup
+    pullRequestEnvironments: "no" # hits limit quit fast
+    pullRequestRepositoryOwner: "GijsvanDulmen"
+    pullRequestRepository: "openshift-gitops-tenants-setup"
+
+  # opens up 443 and 80 to this domain
+  allowedEgressWebDomains:
+  - tweakers.net
+  - "192.168.1.184" # laptop
+
+  # needs specific label and taints
+  # see cluster templates
+  # bindToNodes: "team-backend-apps"
