@@ -15,6 +15,8 @@ tenantGitopsInstances: 1
 # For disconnected clusters
 enableDisconnected: "false"
 
+enableInfraNodes: "false"
+
 operators:
 - name: namespace-configuration-operator
   # disconnectedSource: "cs-community-operator-index-v4-18"
