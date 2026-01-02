@@ -1,4 +1,6 @@
 clusterType: onprem-prod
 
 ingressDomain: "prod.cloud.ticq.org"
-maintenanceMessage: "THIS IS PRODUCTION"
+
+maintenanceMessage: "PRODUCTION: Maintenance at 19:00 at 16 september!"
+maintenanceColor: "#00b02f"
