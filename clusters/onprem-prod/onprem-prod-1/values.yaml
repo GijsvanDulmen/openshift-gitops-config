@@ -1,1 +1,13 @@
 clusterInstance: "onprem-prod-1"
+
+tenants:
+  team-backend:
+    enableTenantNamespaceAutoProvisioning: "true"
+    tenantProvisionedRepository: "https://github.com/GijsvanDulmen/openshift-gitops-tenants-setup"
+    tenantProvisionedBranch: "main"
+  team-frontend: {}
+
+tenantGitopsInstances: 2
+
+enableDisconnected: "true"
+enableInfraNodes: "false"

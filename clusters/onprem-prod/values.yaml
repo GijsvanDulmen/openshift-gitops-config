@@ -1,3 +1,4 @@
 clusterType: onprem-prod
 
 ingressDomain: "prod.cloud.ticq.org"
+maintenanceMessage: "THIS IS PRODUCTION"

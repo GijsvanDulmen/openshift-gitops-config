@@ -10,3 +10,4 @@ tenants:
 tenantGitopsInstances: 2
 
 enableDisconnected: "true"
+enableInfraNodes: "true"
