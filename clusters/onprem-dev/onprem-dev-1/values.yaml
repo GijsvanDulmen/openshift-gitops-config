@@ -13,3 +13,6 @@ tenantGitopsInstances: 2
 
 enableDisconnected: "false"
 enableInfraNodes: "true"
+
+metallb:
+  addressPool: 192.168.5.160-192.168.5.170

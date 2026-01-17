@@ -53,6 +53,7 @@ clusterComponents:
 - name: external-dns
   namespace: "external-dns"
 - name: certmanager-config
+- name: metallb-config
 # - name: istio-config
 
 # enable this for gitops cluster updates!
