@@ -1,5 +1,7 @@
 clusterInstance: "onprem-prod-1"
 
+appsDomain: "apps.hc03.homelab.ticq.org"
+
 tenants:
   team-backend:
     enableTenantNamespaceAutoProvisioning: "true"
