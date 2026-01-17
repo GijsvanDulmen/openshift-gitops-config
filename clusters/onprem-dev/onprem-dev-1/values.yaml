@@ -16,3 +16,5 @@ enableInfraNodes: "true"
 
 metallb:
   addressPool: 192.168.5.160-192.168.5.170
+
+ingressLoadBalancerIp: "192.168.5.160"

@@ -15,3 +15,5 @@ enableDisconnected: "false"
 
 metallb:
   addressPool: 192.168.6.160-192.168.6.170
+
+ingressLoadBalancerIp: "192.168.6.160"
